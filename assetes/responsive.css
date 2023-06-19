@@ -1,0 +1,144 @@
+@media(max-width: 767px)
+{
+.titre1 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.titre {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+em {
+    color: #FFBC42;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    background-color: #FFBC42;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px; 
+    color: white;
+    }
+.btn1 {
+    display: none;
+    background-color: #100D0E;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px; 
+    color: white;
+}
+.params2 {
+   display: none;
+}
+.params3 {
+    color: aliceblue;
+    font-weight: 5px;
+    font-weight: lighter;
+}
+.about-sec1 {
+    display: none;
+    /* width:50%;
+    height:100%;
+    padding:10px; */
+    /* background-color:red; */
+    
+}
+.about-sec1 {
+    width:50%;
+    height:100%;
+    padding:5px;
+    /* background-color:red; */
+    
+}
+.about-sec2 {
+    width:50%;
+    height:100%;
+    padding-top : 10px;
+    
+    
+    /* background-color:red; */
+}
+.titre2 {
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+}
+.contenu1 {
+    color:rgb(241, 237, 237);
+    font-size: 10px;
+    font-style: italic;
+}
+.donwload-cv {
+    display: none;
+    background-color: #FFBC42;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+p {
+    display: none;
+    color:white;
+    font-weight: 10px;
+}
+.skils {
+    background-color:  #100D0E;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.section1 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    justify-content: center;  
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* background-color:  #100D0E; */
+    left: 40%;
+}
+.section2 {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color:  #100D0E;
+    /* margin: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    /* align-items: center;  */
+    justify-content: space-evenly;
+    
+}
+.items1 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(24, 23, 23);
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: #FFBC42;
+}
+.study1 {
+    width: 50%;
+    height: auto;
+    /* background-color: #292828; */
+}
+.study2 {
+    display: none;
+    width: 50%;
+    height: auto;
+    background-color: #292828;
+}
+}
