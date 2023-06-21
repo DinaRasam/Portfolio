@@ -1,16 +1,32 @@
 @media(max-width: 767px)
 {
+.page {
+        display: flex;
+        flex-direction: row;
+    }
+.img {
+        display: none;
+        margin-top: 10px;
+        /* margin-bottom: 20px; */
+        margin-left: 50px;
+        width: 200px;
+        height: 50px;
+       
+        border-radius: 10px;
+       
+    }
+    
 .titre1 {
     font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 .titre {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     
 }
 em {
@@ -18,6 +34,16 @@ em {
     font-style: normal;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
+}
+.titre2 {
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
+.contenu1 {
+    color:rgb(27, 27, 27);
+    font-size: 15px;
+    font-style: italic;
 }
 .btn {
     background-color: #FFBC42;
@@ -37,10 +63,13 @@ em {
 .params2 {
    display: none;
 }
+
+
+
 .study1 {
     width: 100%;
-    height: auto;
-    background-color: #292828;
+    height: 200px;
+    background-color:  rgb(235, 234, 234);
     padding-left: 70px;
     padding-top: 70px;
 }
@@ -65,7 +94,7 @@ em {
     padding-bottom: auto;
 }
 .skils {
-    background-color:  #100D0E;
+    background-color:  white;
     width: 100%;
     height: auto;
     display: flex;
@@ -75,7 +104,7 @@ em {
     margin-top: 20px;
     width: 100%;
     height: auto;
-    background-color:  #100D0E;
+    background-color:  white;
      /* margin: 5px;  */
     display: flex;
     flex-wrap: wrap;
@@ -84,10 +113,16 @@ em {
     justify-content: space-evenly;
     
 }
+.section3 {
+    background-color:  white;
+}
+.service {
+    background-color:  white;
+}
 .items1 {
     width: 100px;
     height: 100px;
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(250, 248, 248);
     margin: 5px;
     border-radius: 50%;
     box-shadow: #FFBC42;
@@ -96,10 +131,9 @@ em {
     margin: 5px;
     width: 300px;
     height: 200px;
-    background-color: rgb(24, 23, 23);
-    border-radius: 20px;
-    box-shadow: #FFBC42; 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(219, 215, 215);
+    border-radius: 20px; 
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
 }
 .serv {
     width: 100%;
@@ -121,4 +155,7 @@ em {
     color: white;
     font-weight: lighter;
     }
-} 
+.nom {
+       display: none;
+    }
+}

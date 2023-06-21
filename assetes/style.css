@@ -1,6 +1,10 @@
 body {
     margin: 0;
 }
+.page {
+    display: flex;
+    flex-direction: row;
+}
 .container {
     
     display: flex;
@@ -10,11 +14,21 @@ body {
     width: 100%;
     /* height: auto; */
 }
+.img {
+    margin-top: 110px;
+    margin-left: 250px;
+    width: 300px;
+    height: 300px;
+    /* background-color: #292828; */
+    /* background-image: url(./images/saryDina.jpeg); */
+    border-radius: 20px;
+   
+}
 
 .home {
     height: auto;
-    background-color: #100D0E;
-    padding: 10%;
+    background-color: white ;
+    padding: 5%;
 }
 .params1 {
     color: #FFBC42;
@@ -23,13 +37,17 @@ body {
     font-weight: bold;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white; 
+    color: black; 
 }
 .titre1 {
+    
+   
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
+    
+    
 }
 em {
     color: #FFBC42;
@@ -63,7 +81,7 @@ em {
 .about {
     width:100%;
     height:auto;
-    background-color: #292828;
+    background-color: rgb(235, 234, 234);
     display:flex;
     flex-direction:row;
 
@@ -94,10 +112,10 @@ table {
 .titre2 {
     font-size: 30px;
     font-weight: bold;
-    color:white;
+    color:#292828;
 }
 .contenu1 {
-    color:rgb(241, 237, 237);
+    color: #292828;
     font-size: 20px;
     font-style: italic;
 }
@@ -106,7 +124,7 @@ table {
     border-radius: 10px;
     width: 200px;
     height: 70px;
-    color: white;
+    color: #292828;
     font-weight: bold;
     margin: auto;
 }
@@ -115,7 +133,7 @@ table {
     color: #100D0E;
 }
 .skils {
-    background-color:  #100D0E;
+    background-color:  white;
     width: 100%;
     height: auto;
     display: flex;
@@ -139,7 +157,7 @@ table {
 .section2 {
     width: 100%;
     height: auto;
-    background-color:  #100D0E;
+    background-color: white;
     /* margin: 5px; */
     display: flex;
     flex-wrap: wrap;
@@ -148,18 +166,31 @@ table {
     justify-content: space-evenly;
     top: 10px;
 }
+.section3 {
+    width: 100%;
+    height: auto;
+    background-color:   rgb(235, 234, 234);
+    /* margin: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* align-items: center;  */
+    justify-content: space-evenly;
+    top: 10px; 
+}
 .items1 {
     width: 200px;
     height: 200px;
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(235, 233, 233);
     margin: 10px;
     border-radius: 50%;
-    box-shadow: #FFBC42;
+   
+    /* padding: 10%; */
 }
 .study {
     width: 100%;
     height: 300px;
-    background-color: #292828;
+    background-color: #f8f5f5;
     display: flex;
     flex-direction: row;
     left: 50px;
@@ -168,7 +199,7 @@ table {
 .study1 {
     width: 50%;
     height: auto;
-    background-color: #292828;
+    background-color: white;
     padding-left: 70px;
     padding-top: 70px;
 }
@@ -190,10 +221,9 @@ table {
     margin: 5px;
     width: 200px;
     height: 300px;
-    background-color: rgb(24, 23, 23);
-    border-radius: 20px;
-    box-shadow: #FFBC42; 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(219, 215, 215);
+    border-radius: 20px; 
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
 }
 .items:hover {
     background-color: white;
@@ -211,9 +241,66 @@ table {
     left: 40%;
 }
 .service {
-    background-color: #100D0E;
+    background-color:   rgb(235, 234, 234);
 }
 label {
     color: aliceblue;
     font-weight: bolder;
+}
+.sec {
+   position: relative;
+   text-align: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-titre {
+     top: 10px;
+     width: 100%;
+     height: auto;
+     position: relative;
+     text-align: center;
+     color:  #FFBC42;
+     font-weight: bold;
+     font-size: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.foot {
+    height: 50px;
+    width: 100%;
+    left: 30%;
+    background-color: white;
+    color: black;
+}
+samp {
+    font-style: oblique;
+    
+}
+.contact-corps {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /* margin: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* align-items: center;  */
+    justify-content: space-evenly;
+     
+}
+li {
+    color: #f8f5f5;
+}
+.corps {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 233, 233);
+    border-radius: 50%;
+    top: 5px;
+   
 }
