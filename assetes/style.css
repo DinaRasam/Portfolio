@@ -2,9 +2,13 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-.page {
+/* .page {
     display: flex;
     flex-direction: row;
+} */
+.navigation {
+    position: fixed;
+    display: flex;
 }
 .container {
     
@@ -15,26 +19,31 @@ body {
     width: 100%;
     /* height: auto; */
 }
-.img {
+/* .img {
     margin-top: 200px;
     margin-left: 100px;
     width: 500px; 
     height: 200px
-}
+} */
 
 .home {
     height: auto;
-    background-color: white ;
+    /* background-color: white ; */
+    background-image: url(./images/bg_image_1.jpg);
+    opacity: 0.8;
     padding: 5%;
 }
 .params1 {
     color: #FFBC42;
+    opacity: 1;
 }
 .titre {
+    opacity: 1;
     font-weight: bold;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: black; 
+    top: 100px;
 }
 .titre1 {
     
@@ -43,6 +52,7 @@ body {
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    opacity: 1;
     
     
 }
@@ -90,7 +100,9 @@ p {
 .about-sec1 {
     width:50%;
     height:100%;
-    padding:10px;
+    padding-top : 80px;
+    padding-left: 100px;
+    padding-right: 30px;
     
     
 }
@@ -99,7 +111,7 @@ p {
     height:100%;
     padding-top : 40px;
     padding-bottom: 40px;
-    
+    margin-left: 100px;
     
     
 }
@@ -107,7 +119,7 @@ table {
     border: 6px;
 }
 .titre2 {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     color:#292828;
 }
@@ -166,7 +178,7 @@ table {
 .section3 {
     width: 100%;
     height: auto;
-    background-color:   rgb(235, 234, 234);
+    background-color: white;
     /* margin: 5px; */
     display: flex;
     flex-wrap: wrap;
@@ -176,9 +188,9 @@ table {
     top: 10px; 
 }
 .items1 {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(235, 233, 233);
+    width: 100px;
+    height: 100px;
+    background-color: white;
     margin: 10px;
     border-radius: 50%;
    
@@ -186,24 +198,27 @@ table {
 }
 .study {
     width: 100%;
-    height: 300px;
-    background-color: #f8f5f5;
+    height: auto;
+    background-color: rgb(235, 233, 233);
     display: flex;
     flex-direction: row;
     left: 50px;
     top: 80px;
 }
 .study1 {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     height: auto;
-    background-color: white;
-    padding-left: 70px;
-    padding-top: 70px;
+    /* background-color: white; */
+     padding-left: 20px;
+    padding-top: 30px; 
 }
 .study2 {
     width: 50%;
     height: auto;
-    background-color: white;
+    padding-top: 70px;
+    /* background-color: white; */
 }
 .params3 {
     /* color: gray;
@@ -214,13 +229,36 @@ table {
     top: 80px;
     
 }
+.education {
+    font-size: 30px;
+    font-weight: bold;
+    color:#292828;
+}
+.educ {
+    width: 160px;
+    height: 20px;
+    background-color: #FFBC42;
+    border-radius: 100px  0px 300px  100px ;
+    position: relative;
+    padding: 5px;
+}
+.exp {
+    width: 80%;
+    height: 140px;
+    background-color: #f8f5f5;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
 .items {
     margin: 5px;
     width: 200px;
     height: 300px;
-    background-color: rgb(219, 215, 215);
-    border-radius: 20px; 
-    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    /* border-radius: 20px;  */
+    /* box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px; */
 }
 .items:hover {
     background-color: white;
@@ -238,7 +276,7 @@ table {
     left: 40%;
 }
 .service {
-    background-color:   rgb(235, 234, 234);
+    background-color:   white;
 }
 label {
     color: aliceblue;
@@ -247,6 +285,19 @@ label {
 .sec {
    position: relative;
    text-align: center;
+   
+}
+.sec2 {
+    width: 100px;
+    height: 100px;
+    background-color: #292828;
+    border-radius: 50%;
+    margin: auto;
+}
+.titre-service {
+    font-size: 20px;
+    color:#FFBC42;
+   padding-top: 0%;
 }
 .contact {
     display: flex;
@@ -288,17 +339,17 @@ samp {
     /* flex-direction: row; */
     /* align-items: center;  */
     justify-content: space-evenly;
-    top: 10px;
+    margin-top: 50px;
 
      
 }
 li {
-    color: #f8f5f5;
+    color: gray;
 }
 .corps {
     width: 50px;
     height: 50px;
-    background-color: rgb(235, 233, 233);
+    background-color: white;
     border-radius: 50%;
     top: 5px;
    

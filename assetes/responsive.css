@@ -1,23 +1,10 @@
-@media(max-width: 767px)
+@media(max-width: 600px)
 {
 body {
     width: 100%;
     overflow-x: hidden;
 }
-.page {
-        display: flex;
-        flex-direction: row;
-    }
-.img {
-      margin-top: 100px;  
-        /* margin-bottom: 20px; */
-        margin-left: 20px;
-        width: 200px;
-        height: 50px;
-       
-        border-radius: 10px;
-       
-    }
+
     
 .titre1 {
     font-weight: bold;
@@ -39,7 +26,7 @@ em {
     font-family: Arial, Helvetica, sans-serif;
 }
 .titre2 {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     color:black;
 }
@@ -51,7 +38,8 @@ em {
 .btn {
     background-color: #FFBC42;
     border-radius: 5px;
-    width: 70px;
+    width: 100px;
+    font-size: 12px;
     height: 30px; 
     color: white;
     }
@@ -67,21 +55,26 @@ em {
    display: none;
 }
 
-
-
-.study1 {
+.study {
     width: 100%;
-    height: 200px;
-    background-color:  rgb(235, 234, 234);
-    padding-left: 70px;
-    padding-top: 70px;
-}
-.study2 {
-    display: none;
-    width: 50%;
     height: auto;
-    background-color: #292828;
+    background-color: rgb(235, 233, 233);
+    display: flex;
+    flex-direction: column;
+    left: 50px;
+    top: 80px;
 }
+.study1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    /* background-color: white; */
+     padding-left: 20px;
+    padding-top: 30px; 
+}
+
+
 .about-sec1 {
     display: none;
     width:50%;
@@ -95,6 +88,7 @@ em {
     height:100%;
     padding-top : auto;
     padding-bottom: auto;
+    margin-left: 10px;
 }
 .skils {
     background-color:  white;
@@ -102,6 +96,9 @@ em {
     height: auto;
     display: flex;
     flex-wrap: wrap;
+}
+.section1 {
+    left: 50px;
 }
 .section2 {
     margin-top: 20px;
@@ -125,18 +122,18 @@ em {
 .items1 {
     width: 100px;
     height: 100px;
-    background-color: rgb(250, 248, 248);
+    background-color: rgb(250, 248, 248); 
     margin: 5px;
     border-radius: 50%;
-    box-shadow: #FFBC42;
+    box-shadow: #FFBC42; 
 }
 .items {
     margin: 5px;
     width: 300px;
     height: 200px;
-    background-color: rgb(219, 215, 215);
-    border-radius: 20px; 
-    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+    /* background-color: white; */
+    /* border-radius: 20px;  */
+    /* box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px; */
 }
 .serv {
     width: 100%;
@@ -173,12 +170,13 @@ em {
          
     }
     li {
-        color: #f8f5f5;
+        color: gray;
+        font-size: 12px;
     }
     .corps {
         width: 50px;
         height: 50px;
-        background-color: rgb(235, 233, 233);
+        background-color: white;
         border-radius: 50%;
         top: 5px;
        
