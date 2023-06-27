@@ -151,16 +151,19 @@ table {
    
 }
 .section1 {
-    width: 100%;
+    width: auto;
     height: auto;
     position: absolute;
     justify-content: center;  
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    /* background-color:  #100D0E; */
+    color: black;
+    background-color: #ffbd4269; 
+    padding-left: 15px;
+    padding-right: 15px;
     left: 40%;
+    border-radius: 20px;
     
 }
 .section2 {
@@ -264,15 +267,17 @@ table {
     background-color: white;
 }
 .serv {
-    width: 100%;
+    width: auto;
     height: auto;
     position: absolute;
     justify-content: center;  
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    /* background-color:  #100D0E; */
+    color: black;
+    background-color: #ffbd4269;
+    border-radius: 20px; 
+    padding: 5px; 
     left: 40%;
 }
 .service {
