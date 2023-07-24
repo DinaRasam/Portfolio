@@ -6,15 +6,12 @@
     <title>MY-portfolio</title>
     <link rel="stylesheet" href="./assetes/style.css">
     <link rel="stylesheet" href="./assetes/responsive.css">
+    
     <link 
         rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  
     />
-    <link
-        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" 
-        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" 
-     />
+    <link rel="stylesheet" href="./assetes/animate-css-animate.css-e8c4fab/animate.min.css">
 </head>
 <body>
     <div class="container">
@@ -22,75 +19,85 @@
             <div class="logo">
                  Dina<samp>Rasam</samp>  
             </div>
-            <div class="menu">
-                <a href="#home-me" target="_blank"><div class="li">Home</div></a> 
-                <a href="#about-me"><div class="li">About</div></a> 
-                <a href="#service-me"><div class="li">Service</div></a> 
-                <a href="#contact-me"><div class="li">Contact</div></a> 
-               </ul>
-            </div>
-         </div>
-        <div class="page">
             
+            <!-- <div class="menu">
+                <ul>
+                <a href="#home-me" target="_blank"><div class="li">Home</div></a> 
+                <a href="#about-me" target="_blank"><div class="li">About</div></a> 
+                <a href="#skils-me" target="_blank"><div class="li">Skills</div></a> 
+                <a href="#service-me" target="_blank"><div class="li">Service</div></a> 
+                <a href="#contact-me" target="_blank"><div class="li">Contact</div></a> 
+               </ul>
+            </div> -->
+            <!-- <div class="respo-menu"><i class="fa-light fa-square-list"></i>
+            </div> -->
+            <button id="darck">darck mode</button>
+        </div>
+
+        <div class="page">
             <div class="home" id="home-me">
+                
                 <p class="params1">Hello</p>
                 
                     <div class="titre1">
                         I'm <em>Dina <br> Rasamimanana</em><br>
                         Web developer
                     </div><br>
+                    <div id="descri1"></div>
                     <div>
                        <a href=""> <button  class="btn" type="button" ><i class="fa-solid fa-user"></i> here me</button></a>
                         <button class="btn1" type="button">my work</button>
                 
                     </div>
             </div>
-                   <!-- <div class="">  
-                      <img class="img" src="./assetes/images/welcome.gif" alt="sans photo" srcset=""
-                    >
-                   </div> -->
+                   
                 
         </div>
 
            
     <div class="about" id="about-me" >
             <div class="about-sec1">
-                <img src="./assetes/images/saryDina.jpeg" alt="" srcset="" style="height: 400px; width: 270px;">
+                <img src="./assetes/images/saryDina.png" alt="" srcset="" style="height: 400px; width: 270px;">
                 </div>
             
             
-                <div class="about-sec2">
+                <div class="about-sec2"  id="about-me">
                     <div class="titre"><i class="fa-duotone fa-user-vneck-hair"><i class="fa-solid fa-user"></i>  About Me</div>
                     <p class="params2">
                       "I am currently in my third year at the ISPM high school 
                       following the electronic computer science course. 
                       I am interested and enthusiastic about the digital world."
+                      
+
                     </p>
-                    <table class="animate">
-                        <tbody>
-                            <tr>
-                                <td class="titre2">First-name:</td>
-                                <td class="contenu1"> ANRIAMIFIDISAMIMANANA </td>
-                            </tr>
-                            <tr>
-                                <td class="titre2">Last-name:</td>
-                                <td class="contenu1"> DINA</td>
-                            </tr>
-                            <tr>
-                                <td class="titre2">Call:</td>
-                                <td class="contenu1">+261 34 60 497 36</td>
-                            </tr>
-                            <tr>
-                                <td class="titre2">Mail:</td>
-                                <td class="contenu1">dinarasam10@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td class="titre2">Adress:</td>
-                                <td class="contenu1">AE 53 Antsahatsiresy Sab/Nam</td>
-                            </tr>
-                        </tbody>
-                            
-                       </table>
+                    <div class="animate-bout">
+                        <table class="animate" >
+                            <tbody>
+                                <tr>
+                                    <td class="titre2">First-name:</td>
+                                    <td class="contenu1"> ANRIAMIFIDISAMIMANANA </td>
+                                </tr>
+                                <tr>
+                                    <td class="titre2">Last-name:</td>
+                                    <td class="contenu1"> DINA</td>
+                                </tr>
+                                <tr>
+                                    <td class="titre2">Call:</td>
+                                    <td class="contenu1">+261 34 60 497 36</td>
+                                </tr>
+                                <tr>
+                                    <td class="titre2">Mail:</td>
+                                    <td class="contenu1">dinarasam10@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td class="titre2">Adress:</td>
+                                    <td class="contenu1">AE 53 Antsahatsiresy Sab/Nam</td>
+                                </tr>
+                            </tbody>
+                                
+                           </table>
+                    </div>
+                    
                    
                     
                     <div>
@@ -110,35 +117,72 @@
                 <br>
                 <br>
               </p>
+              <div class="animate-skils">
+                      
              <div class="section2">
-                    <div class="items1">
-                        <img src="./assetes/images/Sans titre.png" alt="Sans photo" srcset="" 
+                <div class="skils1">
+                 <div class="items1">
+                     <img src="./assetes/images/Sans titre.png" alt="Sans photo" srcset="" 
+                      style="height: 100%; width: 100%; border-radius: 50%;"
+                      >
+                      <h1 class="style-skils">HTML</h1>
+                 </div>
+                 </div>
+                <div class="skils1">
+                 <div class="items1">
+                     <img src="./assetes/images/Sans titre.png" alt="Sans photo" srcset="" 
+                      style="height: 100%; width: 100%; border-radius: 50%;"
+                      >
+                      <h1 class="style-skils">CSS</h1>
+                 </div>
+                 </div>
+                 <div class="skils1">
+                     <div class="items1">
+                         <img src="./assetes/images/JavaScript-logo.png" alt="" srcset=""
                          style="height: 100%; width: 100%; border-radius: 50%;"
                          >
-                    </div>
-                    <div class="items1">
-                        <img src="./assetes/images/JavaScript-logo.png" alt="" srcset=""
-                        style="height: 100%; width: 100%; border-radius: 50%;"
-                        >
-                    </div>
-                    <div class="items1">
-                        <img src="./assetes/images/php-1-logo-png-transparent.png" alt="" srcset=""
-                        style="height: 100%; width: 100%; border-radius: 50%;"
-                        >
-                    </div>
-                    <div class="items1">
-                        <img src="./assetes/images/HTML5_logo_and_wordmark.svg.png" alt="" srcset=""
-                        style="height: 100%; width: 100%; border-radius: 50%;">
-                    </div>
-                    <div class="items1">
-                        <img src="./assetes/images/Git-Icon-1788C.png" alt="" srcset=""
-                        style="height: 100%; width: 100%; border-radius: 50%;">
-                    </div>
-                    <div class="items1">
-                        <img src="./assetes/images/codeigniter.png" alt="" srcset=""
-                        style="height: 100%; width: 100%; border-radius: 50%;">
-                    </div>
-             </div>
+                         <h1 class="style-skils">JS</h1>
+                     </div>
+                 </div>
+                 <div class="skils1">
+                     <div class="items1">
+                         <img src="./assetes/images/php-1-logo-png-transparent.png" alt="" srcset=""
+                         style="height: 100%; width: 100%; border-radius: 50%;"
+                         >
+                         <h1 class="style-skils">PHP</h1>
+                     </div>
+                 </div>
+                 <div class="skils1">
+                     <div class="items1">
+                         <img src="./assetes/images/HTML5_logo_and_wordmark.svg.png" alt="" srcset=""
+                         style="height: 100%; width: 100%; border-radius: 50%;">
+                         <h1 class="style-skils">bootstrap</h1>
+                     </div>
+                 </div>
+                 <div class="skils1">
+                     <div class="items1">
+                         <img src="./assetes/images/Git-Icon-1788C.png" alt="" srcset=""
+                         style="height: 100%; width: 100%; border-radius: 50%;">
+                         <h1 class="style-skils">Git</h1>
+                     </div>
+                 </div>
+                 <div class="skils1">
+                     <div class="items1">
+                         <img src="./assetes/images/codeigniter.png" alt="" srcset=""
+                         style="height: 100%; width: 100%; border-radius: 50%;">
+                         <h1 class="style-skils">Codeigniter</h1>
+                     </div> 
+                 </div>
+                 <div class="skils1">
+                     <div class="items1">
+                         <img src="./assetes/images/codeigniter.png" alt="" srcset=""
+                         style="height: 100%; width: 100%; border-radius: 50%;">
+                         <h1 class="style-skils">C</h1>
+                     </div>
+                 </div>
+                 
+          </div>
+              </div>
        
         </div> 
        
@@ -224,40 +268,7 @@
                         </div>
                       
                 </div>
-                      <!-- <div class="items">
-                            <h2 class="sec">backend devellopper</h2>
-                            <ul>
-                                <li> perspiciatis molestias ipsum dolorum asperiores harum facilis.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Fuga nisi, earum impedit, delectus minima, culpa 
-                                    voluptatem quod accusantium 
-                                    commodi quisquam 
-                                </li>
-                            </ul>
-                      </div>
-                      <div class="items">
-                            <h2 class="sec">merise</h2>
-                            <ul>
-                                <li> perspiciatis molestias ipsum dolorum asperiores harum facilis.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Fuga nisi, earum impedit, delectus minima, culpa 
-                                    voluptatem quod accusantium 
-                                    commodi quisquam 
-                                </li>
-                            </ul>
-                      </div>
-                      <div class="items">
-                            <h2 class="sec">managent project</h2>
-                            <ul>
-                                <li> perspiciatis molestias ipsum dolorum asperiores harum facilis.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Fuga nisi, earum impedit, delectus minima, culpa 
-                                    voluptatem quod accusantium 
-                                    commodi quisquam 
-                                </li>
-                            </ul>
-                      </div>
-               </div> -->
+                      
         </div>
         
     <div class="contact" id="contact-me">
@@ -301,6 +312,7 @@
             </div>
         </div>
     </div>
+    <script src="./assetes/script/script.js"></script>
     </body>
     <footer>
         <div class="foot"> @copirigth 2023 <samp>dinarasam</samp></div>

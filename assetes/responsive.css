@@ -1,5 +1,7 @@
-@media(max-width: 600px)
-{
+@media screen And (max-width:600px){
+    
+
+
 body {
     width: 100%;
     overflow-x: hidden;
@@ -159,27 +161,44 @@ em {
 .nom {
        display: none;
     }
-    .contact-corps {
-        width: 100%;
-        height: 100px;
-        background-color: white;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        top: 10px;
+.contact-corps {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    top: 10px;
     
          
-    }
-    li {
-        color: gray;
-        font-size: 12px;
-    }
-    .corps {
-        width: 50px;
-        height: 50px;
-        background-color: white;
-        border-radius: 50%;
-        top: 5px;
-       
-    }
+}
+li {
+    color: gray;
+    font-size: 12px;
+}
+.corps {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    top: 5px;
+    
+}
+/* .menu {
+    display:none;
+}
+.respo-menu {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+} */
+/* .navigation {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+} */
 }

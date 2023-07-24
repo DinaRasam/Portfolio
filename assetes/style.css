@@ -13,6 +13,7 @@ body {
     position: sticky;
     display: flex;
     flex-direction: row;
+    opacity: 1;
 }
 .logo {
     padding-top: 10px;
@@ -31,14 +32,15 @@ samp {
 .menu {
     padding-top: 10px;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 .li {
     width: auto;
     height: 40px;
-    font-size: 30px;
+    font-size: 25px;
     color: #f8f5f5;
-    padding-left: 20px;
+    padding-left: 15px;
     opacity: 1;
 }
 .li:hover {
@@ -177,6 +179,7 @@ table {
 .donwload-cv:hover {
     background-color:  white;
     color: #100D0E;
+    transform: scale(1.06);
 }
 .skils {
     background-color:  white;
@@ -184,6 +187,7 @@ table {
     height: auto;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
     
    
 }
@@ -398,4 +402,35 @@ li {
     border-radius: 50%;
     top: 5px;
    
+}
+
+.skils1 {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 150px;
+    height: 230px;
+    background-color: #fcfbf9;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;;
+}
+.style-skils {
+    position: relative;
+    display: flex;
+    color: #252525;
+    justify-content: center;
+    /* margin-left:auto;
+    margin-right: auto; */
+}
+
+.skils1:hover {
+    animation-duration: 1s;
+    transform: scale(1.05);
+    color: #FFBC42;
+}
+.style-skils:hover {
+    color: #FFBC42;
+}
+.respo-menu {
+    display: none;
 }
